@@ -60,18 +60,13 @@ This code is not perfectly setup to transfer to new experiments, some tweaking m
 
 # Other Analysis
 
-EXPLORE is as Deep Learning Convolutional Neural Network Solution for Object Recognition Paradigms. All the dependencies come with the installation of the initial conda env or pip installation. To use, navigate to the Explore/Scripts directory and run
+EXPLORE is as Deep Learning Convolutional Neural Network Solution for Object Recognition Paradigms.
 
-```sh
-cd <your directory>/EXPLORE-main/scripts
-python main_training.py
-```
+Ibañez, V., Bohlen, L., Manuella, F. et al. EXPLORE: a novel deep learning-based analysis method for exploration behaviour in object recognition tests. Sci Rep 13, 4249 (2023). https://doi.org/10.1038/s41598-023-31094-w
 
-Once this runs, you can follow the documentation of the EXPLORE manual (README). I made a few changes to the github, allowing you to traverse back and forth through the video with the keys A and D, as sometimes the trackbar doesn't work. For the rest, please refer to the Explore README file and overview images for further guidance. 
+https://github.com/Wahl-lab/EXPLORE
 
-Once the labelling is complete, then save all the images to be used in a google colab for training and then labelling of novel videos. I have attached the colab to this as well. 
-
-If this does not work, then follow the instructions in this repo: https://github.com/Wahl-lab/EXPLORE
+I used this method as an alternative for the DLC NOR & SLR pipeline, and I have also attached a colab that works with the labeled files from the EXPLORE pipeline. 
 
 # Questions
 
@@ -79,4 +74,3 @@ If you have any questions, please contact me at snbafana@gmail.com
 
 # Citations
 
-Ibañez, V., Bohlen, L., Manuella, F. et al. EXPLORE: a novel deep learning-based analysis method for exploration behaviour in object recognition tests. Sci Rep 13, 4249 (2023). https://doi.org/10.1038/s41598-023-31094-w
